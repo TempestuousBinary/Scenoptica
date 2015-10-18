@@ -1,0 +1,93 @@
+\documentclass[11pt, a4paper]{article}
+\usepackage{fontspec} % For better font handling
+   \defaultfontfeatures{Mapping=tex-text}
+   \setsansfont{Alte Haas Grotesk}
+   \setmonofont[Scale=0.8]{Ubuntu Mono}
+   \chardef\&="E050
+   \renewcommand*{\familydefault}{\sfdefault}
+   \newcommand{\html}[1]{\href{#1}{\scriptsize\textsc{[html]}}}
+   \newcommand{\pdf}[1]{\href{#1}{\scriptsize\textsc{[pdf]}}}
+   \newcommand{\doi}[1]{\href{#1}{\scriptsize\textsc{[doi]}}}
+\usepackage{geometry} 
+   \geometry{a4paper, textwidth=5.5in, textheight=8in, vmargin=2in, marginparsep=7pt, marginparwidth=.6in}
+   \setlength\parindent{0in}
+\usepackage[usenames,dvipsnames]{}
+\usepackage{xunicode} % For generating unicode characters
+\usepackage{sectsty} % Custom section styles
+   \sectionfont{\mdseries\upshape\Large}
+   \subsectionfont{\mdseries\scshape\normalsize} 
+   \subsubsectionfont{\mdseries\upshape\large}
+\usepackage[normalem]{ulem} % Change underline (et al.) styles
+\usepackage[usenames,dvipsnames,svgnames,table]{xcolor} % Colours
+   \definecolor{scenopticared}{HTML}{EE3A33}
+   \PassOptionsToPackage{hyphens}{url}
+\usepackage[bookmarks, colorlinks, breaklinks, 
+	pdftitle={Scenoptica - Transparency Document},
+	pdfauthor={Joaquim Baeta},
+]{hyperref}
+   \hypersetup{colorlinks=true,linkcolor=scenopticared,urlcolor=scenopticared}
+\usepackage{marvosym}
+\usepackage{tabularx,ragged2e,booktabs,caption}
+   \newcolumntype{C}[1]{>{\Centering}m{#1}}
+   \renewcommand\tabularxcolumn[1]{C{#1}}
+\usepackage{array} % Expanding table environment
+\usepackage{wallpaper} % For the header images
+\usepackage{graphicx} % For the \includegraphics command
+
+\title{\Huge \textbf{TRANSPARENCY DOCUMENT} \\ \Large \textbf{The story behind the project, our goals, and more} }
+\author{Joaquim Baeta}
+
+\begin{document}
+
+\ThisULCornerWallPaper{1}{imgs/page-header-main.pdf}
+\newgeometry{top=3.5in}
+\maketitle
+
+Scenoptica\footnote{\url{http://scenoptica.com/}}
+
+\section*{Behind the name}
+
+One of my most common mistakes when writing about Scenoptica is typing ``Scentoptica". Alas, much as I wish that were the case, we can't yet incorporate smells into our videos \\
+
+\restoregeometry
+\ULCornerWallPaper{1}{imgs/page-header-small.pdf}
+
+\newpage
+\section*{SWOT analysis}
+\begin{minipage}{\textwidth}
+\begin{tabularx}{\textwidth}{>{\raggedright\arraybackslash}p{5.9cm} | >{\raggedright\arraybackslash}p{6.5cm}}
+\bf STRENGTHS & \bf WEAKNESSES \\\midrule
+\begin{itemize}
+\item{High quality footage in 720p and 1080p.}
+\item{This footage is free to download and use.}
+\end{itemize} & \begin{itemize}
+\item{This footage is only useful if it conforms to the needs of the people using it.}
+\item{For some, 720p is not good enough.}
+\item{This isn't a professional service, and can't present itself as such without significant changes.}
+\end{itemize}\\
+\\
+\bf OPPORTUNITIES & \bf THREATS \\\midrule
+\begin{itemize}
+\item{Stock photography websites sell their footage; we can provide it for free using a donation-based system.}
+\end{itemize} & \begin{itemize}
+\item{YouTube: people already have good-looking footage there, albeit not with sharing in mind.}
+\end{itemize}
+\end {tabularx}
+\end{minipage}
+\bigskip
+
+\section*{Design}
+
+\subsection*{Typefaces}
+
+The Scenoptica logo uses Alte Haas Grotesk
+
+\subsection*{Colours}
+
+Scenoptica's colour theme includes the following colours:
+
+\section*{Blocking issues in some countries}
+
+Scenoptica is blocked in some countries.
+
+\end{document}
