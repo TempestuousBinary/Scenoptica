@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="74.25mm"
+   viewBox="0 0 210 74.25"
+   id="svg3378"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="page_header_main.svg">
+  <defs
+     id="defs3" />
+  <sodipodi:namedview
+     inkscape:document-units="mm"
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.0123341"
+     inkscape:cx="359.62006"
+     inkscape:cy="133.17865"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1366"
+     inkscape:window-height="740"
+     inkscape:window-x="0"
+     inkscape:window-y="28"
+     inkscape:window-maximized="1"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
+  <metadata
+     id="metadata4">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-0.24378431,37.044212)">
+    <rect
+       style="fill:#dad7be;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="rect2985"
+       width="210"
+       height="74.25"
+       x="0.24378431"
+       y="-37.044212" />
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3805"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.11798286px;line-height:125%;font-family:'Alte Haas Grotesk';-inkscape-font-specification:'Alte Haas Grotesk';letter-spacing:0px;word-spacing:0px;fill:#2d2d2d;fill-opacity:1;stroke:none"
+       transform="matrix(0.44436817,0,0,0.44436817,-14.149501,-6.3827705)"><flowRegion
+         id="flowRegion3807"><rect
+           id="rect3809"
+           width="263.11893"
+           height="264.42148"
+           x="138.27028"
+           y="21.492321"
+           style="fill:#2d2d2d" /></flowRegion><flowPara
+         style="font-weight:bold;font-size:48.78120422px;-inkscape-font-specification:'Alte Haas Grotesk Bold';fill:#2d2d2d"
+         id="flowPara3823">Sc<flowSpan
+   style="fill:#48c648;fill-opacity:1"
+   id="flowSpan4177">en</flowSpan><flowSpan
+   style="fill:#ee3a33;fill-opacity:1"
+   id="flowSpan4205">op</flowSpan><flowSpan
+   style="fill:#ffdb67;fill-opacity:1"
+   id="flowSpan4207">ti</flowSpan><flowSpan
+   style="fill:#ffffff;fill-opacity:1"
+   id="flowSpan4209">ca</flowSpan></flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot4211"
+       style="fill:black;stroke:none;stroke-opacity:1;stroke-width:1px;stroke-linejoin:miter;stroke-linecap:butt;fill-opacity:1;font-family:Sans;font-style:normal;font-weight:normal;font-size:40px;line-height:125%;letter-spacing:0px;word-spacing:0px"><flowRegion
+         id="flowRegion4213"><rect
+           id="rect4215"
+           width="122.48921"
+           height="69.147133"
+           x="17.780691"
+           y="184.06525" /></flowRegion><flowPara
+         id="flowPara4217"></flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot4219"
+       style="fill:black;stroke:none;stroke-opacity:1;stroke-width:1px;stroke-linejoin:miter;stroke-linecap:butt;fill-opacity:1;font-family:Sans;font-style:normal;font-weight:normal;font-size:40px;line-height:125%;letter-spacing:0px;word-spacing:0px"><flowRegion
+         id="flowRegion4221"><rect
+           id="rect4223"
+           width="220.28302"
+           height="163.97749"
+           x="-68.159317"
+           y="146.52823" /></flowRegion><flowPara
+         id="flowPara4225"></flowPara></flowRoot>  </g>
+</svg>
