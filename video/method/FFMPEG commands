@@ -1,0 +1,4 @@
+Remove audio
+Source: https://unix.stackexchange.com/questions/6402/how-to-remove-an-audio-track-from-an-mp4-video-file
+
+ffmpeg -i INPUT.MOV -vcodec copy -an OUTPUT.MOV
