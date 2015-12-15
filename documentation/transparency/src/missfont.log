@@ -1,1 +1,6 @@
 mktextfm Monospace
+mktextfm SourceSansPro-Italic/ICU
+mktextfm SourceSansPro-Italic/ICU
+mktextfm SourceSansPro-Italic.ttf/ICU
+mktextfm SourceSansPro-ExtraLightItalic/ICU
+mktextfm SourceSansPro-ExtraLightItalic/ICU

@@ -1,35 +1,45 @@
-\documentclass[11pt, a4paper]{article}
+\documentclass[12pt, a4paper]{article}
 \usepackage{fontspec} % For better font handling
-   \defaultfontfeatures{Mapping=tex-text}
-   \setsansfont{Source Sans Pro}
-   \setmonofont[Scale=0.8]{FreeMono}
-   \chardef\&="E050
-   \renewcommand*{\familydefault}{\sfdefault}
-   \newcommand{\html}[1]{\href{#1}{\scriptsize\textsc{[html]}}}
-   \newcommand{\pdf}[1]{\href{#1}{\scriptsize\textsc{[pdf]}}}
-   \newcommand{\doi}[1]{\href{#1}{\scriptsize\textsc{[doi]}}}
+  	\defaultfontfeatures{Mapping=tex-text}
+  	\setmainfont[
+  		ItalicFont = Source Sans Pro Italic,
+  		BoldFont = Source Sans Pro Bold,
+  		BoldItalicFont = Source Sans Pro Bold Italic]{Source Sans Pro}
+	\newfontfamily\SSPLight[
+		ItalicFont = Source Sans Pro Light Italic,
+		BoldFont = SourceSansPro-ExtraLight]{Source Sans Pro Light}
+		% BoldItalicFont = SourceSansPro-ExtraLightItalic  		
+	\newcommand\textrmlf[1]{{\SSPLight#1}} % These commands are based on: http://tex.stackexchange.com/questions/188726/textlf-for-light-font-weight-how-common
+	\newcommand\textitlf[1]{{\SSPLight\itshape#1}}
+	\let\textbflf\textrm
+	\newcommand\textulf[1]{{\SSPLight\bfseries#1}}
+	\newcommand\textuitlf[1]{{\SSPLight\bfseries\itshape#1}}
+   	\newcommand{\html}[1]{\href{#1}{\scriptsize\textsc{[html]}}}
+   	\newcommand{\pdf}[1]{\href{#1}{\scriptsize\textsc{[pdf]}}}
+   	\newcommand{\doi}[1]{\href{#1}{\scriptsize\textsc{[doi]}}}
 \usepackage{geometry} 
-   \geometry{a4paper, textwidth=5.5in, textheight=8in, vmargin=2in, marginparsep=7pt, marginparwidth=.6in}
-   \setlength\parindent{0in}
+   	\geometry{a4paper, textwidth=5.5in, textheight=8in, vmargin=2in, marginparsep=7pt, marginparwidth=.6in}
+   	\setlength\parindent{0in}
 \usepackage[usenames,dvipsnames]{}
 \usepackage{xunicode} % For generating unicode characters
 \usepackage{sectsty} % Custom section styles
-   \sectionfont{\mdseries\upshape\Large}
-   \subsectionfont{\mdseries\scshape\normalsize} 
-   \subsubsectionfont{\mdseries\upshape\large}
+	\allsectionsfont{\textulf}
+   	\sectionfont{\textulf}
+   	\subsectionfont{\mdseries\scshape\normalsize\textulf} 
+   	\subsubsectionfont{\mdseries\upshape\large}
 \usepackage[normalem]{ulem} % Change underline (et al.) styles
 \usepackage[usenames,dvipsnames,svgnames,table]{xcolor} % Colours
-   \definecolor{scenopticared}{HTML}{EE3A33}
-   \PassOptionsToPackage{hyphens}{url}
+   	\definecolor{scenopticared}{HTML}{EE3A33}
+  	\PassOptionsToPackage{hyphens}{url}
 \usepackage[bookmarks, colorlinks, breaklinks, 
 	pdftitle={Scenoptica - Transparency Document},
 	pdfauthor={Joaquim Baeta},
 ]{hyperref}
-   \hypersetup{colorlinks=true,linkcolor=scenopticared,urlcolor=scenopticared}
-\usepackage{marvosym}
+   	\hypersetup{colorlinks=true,linkcolor=scenopticared,urlcolor=scenopticared}
+\usepackage{marvosym} % Symbols
 \usepackage{tabularx,ragged2e,booktabs,caption}
-   \newcolumntype{C}[1]{>{\Centering}m{#1}}
-   \renewcommand\tabularxcolumn[1]{C{#1}}
+   	\newcolumntype{C}[1]{>{\Centering}m{#1}}
+   	\renewcommand\tabularxcolumn[1]{C{#1}}
 \usepackage{array} % Expanding table environment
 \usepackage{wallpaper} % For the header images
 \usepackage{graphicx} % For the \includegraphics command
